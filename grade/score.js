@@ -1,7 +1,7 @@
 class Finalist{
 
-    //@param coursework to pass whenever an insatance of class Finalist is created
-     //@param finalPaper to pass whenever an insatance of class Finalist is created
+    //@param coursework to pass whenever an instance of class Finalist is created
+     //@param finalPaper to pass whenever an instance of class Finalist is created
     constructor(coursework, finalPaper) {
        this.coursework = coursework;
        this.finalPaper = finalPaper;
@@ -22,7 +22,7 @@ class Finalist{
 
    //@instance of class Finalist created
    
-   var studentId = new Finalist();  //@params pass in the parameters associated with the student id ie 17/BIS/BU/R/**** */
+   var studentId = new Finalist();  //@params pass the parameters associated with the student id ie 17/BIS/BU/R/*****/
 
    //@call function by variable name
    studentId.getFinalMarks();
